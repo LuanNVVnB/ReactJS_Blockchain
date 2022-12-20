@@ -1,0 +1,47 @@
+.text-username {
+  font-weight: bolder;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.rating-star {
+  color: gold;
+}
+
+.comment {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+  margin-bottom: 0.5em;
+}
+
+.comment-image {
+  margin-left: 0.4em;
+}
+
+.comment-body {
+  text-align: left;
+}
+
+.btn-action {
+  margin-left: 0.5em;
+  cursor: pointer;
+}
+
+.comment-sub {
+  margin-left: 3em !important;
+}
+
+.padding-image {
+  margin-right: 20px !important;
+}
+
+.thumbnail {
+  padding: 0px;
+}
+
+.thumbnail img {
+  width: 25px;
+  height: 25px;
+}

@@ -1,0 +1,16 @@
+.el-select {
+  width: 100%;
+}
+.el-form-item {
+  margin-bottom: 10px !important;
+}
+.icon-uploader {
+  float: right;
+}
+.iconImageView {
+  width: 30px;
+  height: 30px;
+}
+.operator-button {
+  margin-right: 3px;
+}

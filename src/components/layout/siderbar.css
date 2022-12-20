@@ -1,0 +1,12 @@
+.icon-image-view {
+  width: 13px;
+  height: 13px;
+  margin-right: 6px;
+}
+.avatar-img {
+  width: 48px;
+  height: 48px;
+}
+.profile-element{
+  display:block !important;
+}

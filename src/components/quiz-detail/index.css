@@ -1,0 +1,82 @@
+.quiz-detail .header input {
+    outline: none;
+}
+
+.quiz-detail .header input:focus,
+.search-question input:focus {
+    box-shadow: none;
+}
+
+.quiz-detail i {
+    cursor: pointer;
+}
+
+.modal-add-question i.fa-times:hover,
+.search-question i.fa-times:hover {
+    font-size: 16px !important;
+}
+
+.quiz-detail .header i {
+    font-size: 1.2rem;
+}
+
+.modal-70w {
+    max-width: 70% !important;
+}
+
+.modal-50w {
+    max-width: 50% !important;
+}
+
+.modal-add-question textarea {
+    resize: none;
+}
+
+.modal-add-question textarea:focus {
+    box-shadow: none;
+}
+
+.search-question {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #00000041;
+    z-index: 1;
+}
+
+.search-question.show {
+    display: block;
+}
+
+.quiz-detail.user {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    overflow: auto;
+    width: 100%;
+    height: 100%;
+}
+
+.search-question .btn-close {
+    position: absolute;
+    width: 40px;
+    top: 0px;
+    left: -40px;
+    border-radius: 0;
+}
+
+.search-question .search-quiz-public-wrap {
+    overflow: auto;
+}
+
+.search-question .search-question-public-wrap {
+    overflow: auto;
+}
+
+.search-question .search-quiz-public-wrap p {
+    font-size: 1rem;
+}

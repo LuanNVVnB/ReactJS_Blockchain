@@ -1,0 +1,22 @@
+#quiz-category th:nth-last-child(1) {
+    width: 120px;
+}
+
+.w-40 {
+    width: 40%;
+}
+
+.w-35 {
+    width: 35%;
+}
+
+td.desc {
+    word-wrap: break-word;
+    max-width: 300px;
+}
+.w-10{
+    width:10%
+}
+.w-20{
+    width:20%
+}

@@ -1,0 +1,24 @@
+.img-responsive {
+    width: 500px;
+    height: 350px;
+
+}
+
+.title-center1 {
+    font-family: 'Playfair Display';
+    margin-bottom: 24px;
+    font-size: 26px;
+    line-height: 1.23;
+    font-weight: 600;
+    color: #06246b;
+    margin-top: 64px;
+}
+
+.title-center2 {
+    font-family: 'Roboto';
+    font-size: 18px;
+    line-height: 1.55;
+    font-weight: 300;
+    color: #06246b;
+    margin-bottom: 16px;
+}

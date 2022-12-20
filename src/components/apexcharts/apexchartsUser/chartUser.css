@@ -1,0 +1,136 @@
+.col-6 {
+  margin-top: 15px;
+}
+
+.bottom-chart {
+  margin-bottom: 50px;
+}
+.ibox-content {
+  border-top: none;
+}
+.donut-class {
+  margin-bottom: 50px;
+}
+.status-card__icon {
+  padding-left: 50px;
+}
+.card-skills {
+  width: 100%;
+  padding-bottom: 10px;
+}
+.col-4 {
+  margin-top: 5px;
+}
+/* .name-skills {
+  margin: 5px;
+} */
+.name-skills > i {
+  margin-right: 15px;
+}
+.result-skills {
+  border: none;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+.centent-img-apachart {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  padding-bottom: 50px;
+}
+.row-chart {
+  margin-top: 5px;
+}
+.centent-img-apachart > p {
+  color: #000;
+}
+.ibox-content-card {
+  background: #fff;
+  padding: 20px;
+}
+.menu-date {
+  /* display: block; */
+  /* list-style-type: disc; */
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 20px;
+}
+.menu-date > li {
+  display: block;
+  cursor: pointer;
+  padding: 8px 20px;
+  margin-top: 10px;
+}
+.menu-date > li:hover {
+  background-color: #f9f9f9;
+}
+.min-hieght-class{
+  overflow: auto;
+}
+.back-chart {
+  padding: 10px;
+  font-size: 20px;
+  margin-top: 10px;
+}
+.back-chart:hover {
+  cursor: pointer;
+}
+.min-hieght-class {
+  min-height: 380px;
+}
+
+.ibox-content-rank {
+  height: 9%;
+  width: 100%;
+  background: white;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2%;
+}
+.status-card__name {
+    width: 50%;
+  margin: 5px 5px 5px 20px;
+  font-size: 14px;
+  margin-top:15px;
+  display:flex;
+  justify-content: space-between;
+}
+.status-card-rank{ 
+    font-size: 24px;
+}
+.status-card__info{
+    display:flex;
+    justify-content: space-around;
+    position: relative;
+}
+.status-card__color{
+    position:absolute;
+    display:flex;
+    justify-content: center;
+    width:45px;
+    height: 45px;
+    border-radius:50%;
+    right:20px;
+   top:15px;
+}
+.status-card__color >span{
+    margin-top:10px;
+}
+.status-img-item{
+    width:50px;
+    height:50px;
+    border-radius:50%;
+    text-align: center;
+    
+}
+.status-card-not-off{
+  height: 380px;
+  margin-top:100px;
+  text-align: center;
+}
+.not-off-img{
+  width:50%;
+  height: 50%;
+}

@@ -1,0 +1,17 @@
+#quiz th:nth-last-child(1) {
+    width: 200px;
+    min-width: 200px;
+}
+
+.w-40 {
+    width: 40%;
+}
+
+.w-35 {
+    width: 35%;
+}
+
+td.desc {
+    word-wrap: break-word;
+    max-width: 300px;
+}

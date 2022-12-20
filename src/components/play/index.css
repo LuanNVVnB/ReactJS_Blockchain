@@ -1,0 +1,49 @@
+.quiz-play {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    overflow: auto;
+}
+
+.quiz-play .fa-times:hover {
+    font-size: 16px !important;
+}
+
+.quiz-play p {
+    font-weight: 400 !important;
+}
+
+.quiz-play pre {
+    font-weight: 400 !important;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !important;
+    font-size: 1.5rem;
+    word-wrap: break-word;
+    overflow-x: hidden;
+    white-space: pre-wrap;
+    white-space: -moz-pre-wrap;
+    white-space: -pre-wrap;
+    white-space: -o-pre-wrap;
+    line-height: 2;
+    word-break: keep-all;
+    max-height: 100%;
+}
+
+.answer-card p::before {
+    content: '';
+    width: 10px;
+    height: 10px;
+    background: var(--secondary);
+    border-radius: 50%;
+    position: absolute;
+    top: 5px;
+    left: 0px;
+}
+
+.answer-card p.choose::before {
+    background: var(--danger);
+}
+
+.answer-card p.correct::before {
+    background: var(--success);
+}
